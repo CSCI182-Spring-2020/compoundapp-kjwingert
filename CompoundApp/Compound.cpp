@@ -25,7 +25,6 @@ void Compound::AddElement(string name, string symbol, int atomicWeight, int atom
 		_elementAmount[index].AddElementAmount(name, symbol, atomicWeight, atomCount);
 			index++;
 	}
-
 }
 
 void Compound::Print()
@@ -35,3 +34,5 @@ void Compound::Print()
 		_elementAmount[i].printElementAmount();
 	}
 }
+
+

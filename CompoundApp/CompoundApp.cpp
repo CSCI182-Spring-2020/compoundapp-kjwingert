@@ -3,6 +3,11 @@
 
 using namespace std;
 
+void printCompound(Compound& c)
+{
+	cout << "My Compound" << endl;
+}
+
 int main()
 {
 

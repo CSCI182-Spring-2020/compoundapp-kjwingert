@@ -15,5 +15,6 @@ public:
 	~Compound();
 	void AddElement(string name, string symbol, int atomicWeight, int atomCount);
 	void Print();
-};
-
+Compound(const Compound&);
+Compound& operator=(const Compound&);
+}; 
